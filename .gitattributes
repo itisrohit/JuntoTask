@@ -1,0 +1,8 @@
+# Mark CSS files as linguist-vendored to exclude them from language statistics
+*.css linguist-vendored
+# Mark generated JavaScript files as generated
+*.js linguist-generated
+*.mjs linguist-generated
+# Mark TypeScript as the primary language
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
